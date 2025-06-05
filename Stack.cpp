@@ -60,3 +60,7 @@ class stack{
         }//retrun the vale of the top node
     }
 };
+
+int main(){
+    
+}
