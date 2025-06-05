@@ -32,7 +32,7 @@ class stack{
     }
 
     //IsEmpt operation: check if the stack is empty
-    bool isEmpety(){
+    bool isEmpty(){
         return top == NULL; // return true if the top pointer is null, indicating an empty stack
     }
 
@@ -42,5 +42,10 @@ class stack{
             cout << "Stack is empty." << endl;
             return; //if the stack is empty, print a masage and return
         }
+    }
+
+    // peek/Top operation : retrieve the value of the topmost elemnt without removing it
+    void peek(){
+        
     }
 };
