@@ -1,12 +1,18 @@
 #include <iostream>
 using namespace std;
 
-class node{
+class Node{
     public:
         int data;
         Node *next;
 
-        node(){
+        Node(){
             next = NULL;
         }
 };
+
+//stack class
+
+class stack{
+    
+}
