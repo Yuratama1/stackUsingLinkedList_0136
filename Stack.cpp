@@ -35,4 +35,9 @@ class stack{
     bool isEmpety(){
         return top == NULL; // return true if the top pointer is null, indicating an empty stack
     }
+
+    //Pop operation : remove the topmost element from the stack
+    void pop(){
+        
+    }
 };
