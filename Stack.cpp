@@ -12,7 +12,6 @@ class Node{
 };
 
 //stack class
-
 class stack{
     private:
         Node *top;// pointer to the top node of the stack
@@ -20,5 +19,10 @@ class stack{
     public:
     stack(){
         top = NULL; //initialize the stack with a null top pointer
+    }
+
+    //push operation insert an element onto the top the stak
+    int push(int value){
+        
     }
 };
