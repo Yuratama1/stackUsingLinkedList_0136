@@ -71,7 +71,7 @@ int main(){
         cout << "1. Push\n";
         cout << "2. Pop\n";
         cout << "3. Peek\n";
-        cout << "$. Exit\n";
+        cout << "4. Exit\n";
         cout << "Enter your choice:";
         cin >> choice;
 
