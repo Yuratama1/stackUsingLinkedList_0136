@@ -23,6 +23,6 @@ class stack{
 
     //push operation insert an element onto the top the stak
     int push(int value){
-        
+        Node *newnode = new Node();//1.alocation memeory for the new node
     }
 };
