@@ -33,6 +33,6 @@ class stack{
 
     //IsEmpt operation: check if the stack is empty
     bool isEmpety(){
-        
+        return top == NULL; // return true if the top pointer is null, indicating an empty stack
     }
 };
