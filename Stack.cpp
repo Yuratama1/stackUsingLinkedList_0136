@@ -85,9 +85,15 @@ int main(){
                 stack.pop(); // pop the topmost element from the stack
                 break;
             case 3:
-                
-                
-
+                stack.peek();
+                break;
+            case 4:
+                cout << "Exiting program." << endl;
+            default:
+                cout << "Invalid choice. Try again." << endl;
+                break;
         }
+        cout << endl;
     }
+    return 0;
 }
